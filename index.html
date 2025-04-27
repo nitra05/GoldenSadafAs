@@ -12,8 +12,8 @@
             --primary-red: #F21D2F;
             --primary-green: #03A64A;
             --dark-green: #025928;
-            --brown: #734309;
-            --orange: #F2911B;
+            --brown: #F2911B;
+            --orange: #D9CCC7;
         }
 
         body {
@@ -51,6 +51,14 @@
     </style>
 </head>
 <body class="bg-gray-50">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Кнопка "Наверх" -->
+    <button id="scrollTopBtn" class="fixed bottom-8 right-8 bg-white hover:bg-gray-100 text-black w-12 h-12 rounded-full shadow-lg opacity-0 transition-all duration-300 ease-out flex items-center justify-center border-2 border-black">
+        <svg class="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M12 19V5M5 12l7-7 7 7"/>
+        </svg>
+    </button>
+
     <!-- Навигация -->
     <nav class="fixed w-full bg-[#734309] text-white shadow-lg z-50">
         <div class="container mx-auto px-6 py-4">
@@ -98,143 +106,207 @@
     </div>
 </section>
 
-    <!-- Продукция -->
-    <section class="py-20 bg-white" id="products">
-        <div class="container mx-auto px-6">
-            <h2 class="text-3xl text-center mb-16 font-bold text-[#025928]">VÅRE PRODUKTER</h2>
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-8"> 
 
-        
+    <!-- Test -->
+        <!-- Продукция -->
+        <section class="py-20 bg-white" id="products">
+            <div class="container mx-auto px-6">
+                <h2 class="text-3xl text-center mb-16 font-bold text-[#025928]">VÅRE PRODUKTER</h2>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
 
-            <!-- Продукт 1 -->
-            <div class="product-card bg-white rounded-lg p-6">
-                <div class="h-48 bg-cover mb-4 rounded-lg" 
-                     style="background-image: url('/img/frukti.jpg')"></div>
-                <h3 class="text-xl font-bold text-[#734309]">TØRRFRUKT</h3>
-                <p class="text-[#025928] mb-4">Naturlige tørkede frukter uten tilsatsstoffer</p>
-                <div class="flex justify-between items-center">
-                    <!-- <span class="text-[#F21D2F] font-bold text-xl">Fra 50 kr/l</span> -->
-                    <button class="bg-[#F2911B] hover:bg-[#da8010] text-white px-4 py-2 rounded">
-                        BESTILL
-                    </button>
-                </div>
-            </div>
-
-             <!-- Продукт 1 -->
-         <div class="product-card bg-white rounded-lg p-6">
-            <div class="h-48 bg-cover mb-4 rounded-lg" 
-                 style="background-image: url('/img/tea-box.jpg')"></div>
-            <h3 class="text-xl font-bold text-[#734309]">Tea</h3>
-            <p class="text-[#025928] mb-4">Naturlige</p>
-            <div class="flex justify-between items-center">
-                <!-- <span class="text-[#F21D2F] font-bold text-xl">Fra 50 kr/l</span> -->
-                <button class="bg-[#F2911B] hover:bg-[#da8010] text-white px-4 py-2 rounded">
-                    BESTILL
-                </button>
-            </div>
-        </div>
-
-            <!-- Продукт 2 -->
-            <div class="product-card bg-white rounded-lg p-6">
-            <div class="h-48 bg-cover mb-4 rounded-lg" 
-                    style="background-image: url('/img/tea.jpg')"></div>
-            <h3 class="text-xl font-bold text-[#734309]">Tea</h3>
-            <p class="text-[#025928] mb-4">Naturlige</p>
-            <div class="flex justify-between items-center">
-                <!-- <span class="text-[#F21D2F] font-bold text-xl">Fra 80 kr/kg</span> -->
-                <button class="bg-[#F2911B] hover:bg-[#da8010] text-white px-4 py-2 rounded">
-                    BESTILL
-                </button>
-            </div>
-            </div>            
-            
-        
-            <!-- Продукт 3 -->
-            <div class="product-card bg-white rounded-lg p-6">
-                <div class="h-48 bg-cover mb-4 rounded-lg" 
-                        style="background-image: url('/img/ris-safaf-as.jpg')"></div>
-                <h3 class="text-xl font-bold text-[#734309]">Ris safaf as</h3>
-                <p class="text-[#025928] mb-4">Høy kvalitet basmati sela</p>
-                <div class="flex justify-between items-center">
-                    <!-- <span class="text-[#F21D2F] font-bold text-xl">Fra 25 kr/kg</span> -->
-                    <button class="bg-[#F2911B] hover:bg-[#da8010] text-white px-4 py-2 rounded">
-                        BESTILL
-                    </button>
-                </div>
-            </div>
-
-            <!-- Продукт 4 -->
-            <div class="product-card bg-white rounded-lg p-6">
-                <div class="h-48 bg-cover mb-4 rounded-lg" 
-                        style="background-image: url('/img/ris-golden-safaf-as.jpg')"></div>
-                <h3 class="text-xl font-bold text-[#734309]">Ris golden safaf as</h3>
-                <p class="text-[#025928] mb-4">Høy kvalitet basmati sella</p>
-                <div class="flex justify-between items-center">
-                    <!-- <span class="text-[#F21D2F] font-bold text-xl">Fra 25 kr/kg</span> -->
-                    <button class="bg-[#F2911B] hover:bg-[#da8010] text-white px-4 py-2 rounded">
-                        BESTILL
-                    </button>
-                </div>
-            </div>                
-
-            <!-- Продукт 5 -->
-            <div class="product-card bg-white rounded-lg p-6">
-                <div class="h-48 bg-cover mb-4 rounded-lg" 
-                        style="background-image: url('/img/keten tohumu yagi.jpg')"></div>
-                <h3 class="text-xl font-bold text-[#734309]">Olje keten tohumu yagi</h3>
-                <p class="text-[#025928] mb-4">Naturlige</p>
-                <div class="flex justify-between items-center">
-                    <!-- <span class="text-[#F21D2F] font-bold text-xl">Fra 80 kr/kg</span> -->
-                    <button class="bg-[#F2911B] hover:bg-[#da8010] text-white px-4 py-2 rounded">
-                        BESTILL
-                    </button>
-                </div>
-            </div>
-
-            <!-- Продукт 6 -->
-            <div class="product-card bg-white rounded-lg p-6">
-                <div class="h-48 bg-cover mb-4 rounded-lg" 
-                     style="background-image: url('/img/susam yagi-m.jpg')"></div>
-                <h3 class="text-xl font-bold text-[#734309]">Olje susam yagi</h3>
-                <p class="text-[#025928] mb-4">Naturlige</p>
-                <div class="flex justify-between items-center">
-                    <!-- <span class="text-[#F21D2F] font-bold text-xl">Fra 80 kr/kg</span> -->
-                    <button class="bg-[#F2911B] hover:bg-[#da8010] text-white px-4 py-2 rounded">
-                        BESTILL
-                    </button>
-                </div>
-            </div>
-
-                <!-- Продукт 5 -->
-                <div class="product-card bg-white rounded-lg p-6">
-                    <div class="h-48 bg-cover mb-4 rounded-lg" 
-                         style="background-image: url('/img/olie-abril.jpg')"></div>
-                    <h3 class="text-xl font-bold text-[#734309]">Olje abril</h3>
-                    <p class="text-[#025928] mb-4">Naturlige</p>
-                    <div class="flex justify-between items-center">
-                        <!-- <span class="text-[#F21D2F] font-bold text-xl">Fra 80 kr/kg</span> -->
-                        <button class="bg-[#F2911B] hover:bg-[#da8010] text-white px-4 py-2 rounded">
-                            BESTILL
-                        </button>
+                    <!-- Продукт 1 -->
+                    <div class="product-card bg-white rounded-lg p-6 flex flex-col">
+                        <!-- Контейнер для изображения с фиксированным соотношением сторон -->
+                        <div class="relative pt-[75%] mb-4"> <!-- 4:3 соотношение -->
+                            <img src="/img/frukti.jpg" 
+                                alt="Tørrfrukt"
+                                class="absolute top-0 left-0 w-full h-full object-cover rounded-lg"
+                                loading="lazy">
+                        </div>
+                        
+                        <h3 class="text-xl font-bold text-[#734309] mb-2">TØRRFRUKT</h3>
+                        <p class="text-[#025928] mb-4 flex-grow"> <!-- flex-grow для выравнивания кнопки -->
+                            Naturlige tørkede frukter uten tilsatsstoffer
+                        </p>
+                        <div class="flex justify-between items-center">
+                            <button class="bg-[#F2911B] hover:bg-[#da8010] text-white px-4 py-2 rounded transition-colors">
+                                BESTILL
+                            </button>
+                        </div>
                     </div>
-                </div>
 
-                <!-- Продукт 5 -->
-                <div class="product-card bg-white rounded-lg p-6">
-                    <div class="h-48 bg-cover mb-4 rounded-lg" 
-                         style="background-image: url('/img/olie-ukranian.jpg')"></div>
-                    <h3 class="text-xl font-bold text-[#734309]">Olje ukranian</h3>
-                    <p class="text-[#025928] mb-4">Naturlige</p>
-                    <div class="flex justify-between items-center">
-                        <!-- <span class="text-[#F21D2F] font-bold text-xl">Fra 80 kr/kg</span> -->
-                        <button class="bg-[#F2911B] hover:bg-[#da8010] text-white px-4 py-2 rounded">
-                            BESTILL
-                        </button>
+                     <!-- Продукт 2 -->
+                     <div class="product-card bg-white rounded-lg p-6 flex flex-col">
+                        <!-- Контейнер для изображения с фиксированным соотношением сторон -->
+                        <div class="relative pt-[75%] mb-4"> <!-- 4:3 соотношение -->
+                            <img src="/img/tea-box.jpg" 
+                                alt="Tørrfrukt"
+                                class="absolute top-0 left-0 w-full h-full object-cover rounded-lg"
+                                loading="lazy">
+                        </div>
+                        
+                        <h3 class="text-xl font-bold text-[#734309] mb-2">Tea</h3>
+                        <p class="text-[#025928] mb-4 flex-grow"> <!-- flex-grow для выравнивания кнопки -->
+                            Naturlige
+                        </p>
+                        <div class="flex justify-between items-center">
+                            <button class="bg-[#F2911B] hover:bg-[#da8010] text-white px-4 py-2 rounded transition-colors">
+                                BESTILL
+                            </button>
+                        </div>
                     </div>
+
+                     <!-- Продукт 3 -->
+                     <div class="product-card bg-white rounded-lg p-6 flex flex-col">
+                        <!-- Контейнер для изображения с фиксированным соотношением сторон -->
+                        <div class="relative pt-[75%] mb-4"> <!-- 4:3 соотношение -->
+                            <img src="/img/tea.jpg" 
+                                alt="Tørrfrukt"
+                                class="absolute top-0 left-0 w-full h-full object-cover rounded-lg"
+                                loading="lazy">
+                        </div>
+                        
+                        <h3 class="text-xl font-bold text-[#734309] mb-2">Tea</h3>
+                        <p class="text-[#025928] mb-4 flex-grow"> <!-- flex-grow для выравнивания кнопки -->
+                            Naturlige
+                        </p>
+                        <div class="flex justify-between items-center">
+                            <button class="bg-[#F2911B] hover:bg-[#da8010] text-white px-4 py-2 rounded transition-colors">
+                                BESTILL
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Продукт 4 -->
+                    <div class="product-card bg-white rounded-lg p-6 flex flex-col">
+                        <!-- Контейнер для изображения с фиксированным соотношением сторон -->
+                        <div class="relative pt-[75%] mb-4"> <!-- 4:3 соотношение -->
+                            <img src="/img/ris-safaf-as.jpg" 
+                                alt="Ris safaf as"
+                                class="absolute top-0 left-0 w-full h-full object-cover rounded-lg"
+                                loading="lazy">
+                        </div>
+                        
+                        <h3 class="text-xl font-bold text-[#734309] mb-2">Ris safaf as</h3>
+                        <p class="text-[#025928] mb-4 flex-grow"> <!-- flex-grow для выравнивания кнопки -->
+                            Høy kvalitet basmati sela
+                        </p>
+                        <div class="flex justify-between items-center">
+                            <button class="bg-[#F2911B] hover:bg-[#da8010] text-white px-4 py-2 rounded transition-colors">
+                                BESTILL
+                            </button>
+                        </div>
+                    </div>
+
+                     <!-- Продукт 5 -->
+                     <div class="product-card bg-white rounded-lg p-6 flex flex-col">
+                        <!-- Контейнер для изображения с фиксированным соотношением сторон -->
+                        <div class="relative pt-[75%] mb-4"> <!-- 4:3 соотношение -->
+                            <img src="/img/ris-golden-safaf-as.jpg" 
+                                alt="Ris golden safaf as"
+                                class="absolute top-0 left-0 w-full h-full object-cover rounded-lg"
+                                loading="lazy">
+                        </div>
+                        
+                        <h3 class="text-xl font-bold text-[#734309] mb-2">Ris golden safaf as</h3>
+                        <p class="text-[#025928] mb-4 flex-grow"> <!-- flex-grow для выравнивания кнопки -->
+                            Høy kvalitet basmati sella
+                        </p>
+                        <div class="flex justify-between items-center">
+                            <button class="bg-[#F2911B] hover:bg-[#da8010] text-white px-4 py-2 rounded transition-colors">
+                                BESTILL
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Продукт 6 -->
+                    <div class="product-card bg-white rounded-lg p-6 flex flex-col">
+                        <!-- Контейнер для изображения с фиксированным соотношением сторон -->
+                        <div class="relative pt-[75%] mb-4"> <!-- 4:3 соотношение -->
+                            <img src="/img/keten tohumu yagi.jpg" 
+                                alt="Olje keten tohumu yagi"
+                                class="absolute top-0 left-0 w-full h-full object-cover rounded-lg"
+                                loading="lazy">
+                        </div>
+                        
+                        <h3 class="text-xl font-bold text-[#734309] mb-2">Olje keten tohumu yagi</h3>
+                        <p class="text-[#025928] mb-4 flex-grow"> <!-- flex-grow для выравнивания кнопки -->
+                            Naturlige
+                        </p>
+                        <div class="flex justify-between items-center">
+                            <button class="bg-[#F2911B] hover:bg-[#da8010] text-white px-4 py-2 rounded transition-colors">
+                                BESTILL
+                            </button>
+                        </div>
+                    </div>
+
+                       <!-- Продукт 7 -->
+                       <div class="product-card bg-white rounded-lg p-6 flex flex-col">
+                        <!-- Контейнер для изображения с фиксированным соотношением сторон -->
+                        <div class="relative pt-[75%] mb-4"> <!-- 4:3 соотношение -->
+                            <img src="/img/susam yagi-m.jpg" 
+                                alt="Olje susam yagi"
+                                class="absolute top-0 left-0 w-full h-full object-cover rounded-lg"
+                                loading="lazy">
+                        </div>
+                        
+                        <h3 class="text-xl font-bold text-[#734309] mb-2">Olje susam yagi</h3>
+                        <p class="text-[#025928] mb-4 flex-grow"> <!-- flex-grow для выравнивания кнопки -->
+                            Naturlige
+                        </p>
+                        <div class="flex justify-between items-center">
+                            <button class="bg-[#F2911B] hover:bg-[#da8010] text-white px-4 py-2 rounded transition-colors">
+                                BESTILL
+                            </button>
+                        </div>
+                    </div>
+
+                        <!-- Продукт 8 -->
+                        <div class="product-card bg-white rounded-lg p-6 flex flex-col">
+                            <!-- Контейнер для изображения с фиксированным соотношением сторон -->
+                            <div class="relative pt-[75%] mb-4"> <!-- 4:3 соотношение -->
+                                <img src="/img/olie-abril.jpg" 
+                                    alt="Olje abril"
+                                    class="absolute top-0 left-0 w-full h-full object-cover rounded-lg"
+                                    loading="lazy">
+                            </div>
+                            
+                            <h3 class="text-xl font-bold text-[#734309] mb-2">Olje abril</h3>
+                            <p class="text-[#025928] mb-4 flex-grow"> <!-- flex-grow для выравнивания кнопки -->
+                                Naturlige
+                            </p>
+                            <div class="flex justify-between items-center">
+                                <button class="bg-[#F2911B] hover:bg-[#da8010] text-white px-4 py-2 rounded transition-colors">
+                                    BESTILL
+                                </button>
+                            </div>
+                        </div>
+
+                         <!-- Продукт 9 -->
+                        <div class="product-card bg-white rounded-lg p-6 flex flex-col">
+                            <!-- Контейнер для изображения с фиксированным соотношением сторон -->
+                            <div class="relative pt-[75%] mb-4"> <!-- 4:3 соотношение -->
+                                <img src="/img/olie-ukranian.jpg" 
+                                    alt="Olje ukranian"
+                                    class="absolute top-0 left-0 w-full h-full object-cover rounded-lg"
+                                    loading="lazy">
+                            </div>
+                            
+                            <h3 class="text-xl font-bold text-[#734309] mb-2">Olje ukranian</h3>
+                            <p class="text-[#025928] mb-4 flex-grow"> <!-- flex-grow для выравнивания кнопки -->
+                                Naturlige
+                            </p>
+                            <div class="flex justify-between items-center">
+                                <button class="bg-[#F2911B] hover:bg-[#da8010] text-white px-4 py-2 rounded transition-colors">
+                                    BESTILL
+                                </button>
+                            </div>
+                        </div>
+
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+    <!-- Test -->
 
     <!-- Видео-секция -->
 <section class="py-20 bg-[#F5F5F5]" id="video">
@@ -339,23 +411,21 @@
                                 Kløfterhagen 9C, 1067 Oslo, Norge
                             </p>
                             <p>
-                                <i class="fas fa-phone-alt text-[#F21D2F] mr-2"> +47 463 40 927</i>
-                               
-                                
+                                <i class="fas fa-phone-alt text-[#F21D2F] mr-2"></i>
+                                +47 463 40 927
                             </p>
                             <p>
-                                <i class="fas fa-phone-alt text-[#F21D2F] mr-2"> +47 480 54 258</i>
-                               
-                                
+                                <i class="fas fa-phone-alt text-[#F21D2F] mr-2"></i>
+                                +47 480 54 258                                
                             </p>
                             
                             <p>
-                                <i class="fas fa-envelope text-[#F21D2F] mr-2">kobl63@hotmail.com</i>
-                                
+                                <i class="fas fa-envelope text-[#F21D2F] mr-2"></i>
+                                kobl63@hotmail.com
                             </p>
                             <p>
-                                <i class="fas fa-envelope text-[#F21D2F] mr-2">vahid48r@hotmail.com</i>
-                                
+                                <i class="fas fa-envelope text-[#F21D2F] mr-2"></i>
+                                vahid48r@hotmail.com                                
                             </p>
                         </div>
                     </div>
@@ -423,10 +493,7 @@
         </div>
     </div>
 </section>
-   <!-- Кнопка "Наверх" -->
-   <button id="scrollTopBtn" class="fixed bottom-8 right-8 bg-[#F21D2F] hover:bg-[#D91829] text-white w-12 h-12 rounded-full shadow-lg opacity-0 transition-all duration-300 ease-out flex items-center justify-center">
-    <i class="fas fa-arrow-up text-xl"></i>
-</button>
+
     <!-- Футер -->
     <footer class="bg-[#025928] text-white py-12">
         <div class="container mx-auto px-6">
@@ -452,30 +519,26 @@
         </div>
     </footer>
 
-<script>
-    // Получаем элементы
-    const scrollTopBtn = document.getElementById('scrollTopBtn');
+    <script>
+        const scrollTopBtn = document.getElementById('scrollTopBtn');
 
-    // Показываем/скрываем кнопку при прокрутке
-    window.addEventListener('scroll', () => {
-        if (window.scrollY > 200) {
-            scrollTopBtn.classList.remove('opacity-0', 'translate-y-10');
-            scrollTopBtn.classList.add('opacity-100', 'translate-y-0');
-        } else {
-            scrollTopBtn.classList.remove('opacity-100', 'translate-y-0');
-            scrollTopBtn.classList.add('opacity-0', 'translate-y-10');
-        }
-    });
-
-    // Плавная прокрутка вверх
-    scrollTopBtn.addEventListener('click', () => {
-        window.scrollTo({
-            top: 0,
-            behavior: 'smooth'
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 200) {
+                scrollTopBtn.classList.remove('opacity-0', 'translate-y-10');
+                scrollTopBtn.classList.add('opacity-100', 'translate-y-0');
+            } else {
+                scrollTopBtn.classList.remove('opacity-100', 'translate-y-0');
+                scrollTopBtn.classList.add('opacity-0', 'translate-y-10');
+            }
         });
-    });
-</script>
 
+        scrollTopBtn.addEventListener('click', () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+    </script>
     <script>
         // Мобильное меню
         const menuBtn = document.getElementById('menu-btn');
