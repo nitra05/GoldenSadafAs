@@ -51,6 +51,14 @@
     </style>
 </head>
 <body class="bg-gray-50">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Кнопка "Наверх" -->
+    <button id="scrollTopBtn" class="fixed bottom-8 right-8 bg-white hover:bg-gray-100 text-black w-12 h-12 rounded-full shadow-lg opacity-0 transition-all duration-300 ease-out flex items-center justify-center border-2 border-black">
+        <svg class="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M12 19V5M5 12l7-7 7 7"/>
+        </svg>
+    </button>
+
     <!-- Навигация -->
     <nav class="fixed w-full bg-[#734309] text-white shadow-lg z-50">
         <div class="container mx-auto px-6 py-4">
@@ -120,7 +128,7 @@
                 </div>
             </div>
 
-             <!-- Продукт 1 -->
+             <!-- Продукт 2 -->
          <div class="product-card bg-white rounded-lg p-6">
             <div class="h-48 bg-cover mb-4 rounded-lg" 
                  style="background-image: url('/img/tea-box.jpg')"></div>
@@ -134,7 +142,7 @@
             </div>
         </div>
 
-            <!-- Продукт 2 -->
+            <!-- Продукт 3 -->
             <div class="product-card bg-white rounded-lg p-6">
             <div class="h-48 bg-cover mb-4 rounded-lg" 
                     style="background-image: url('/img/tea.jpg')"></div>
@@ -149,7 +157,7 @@
             </div>            
             
         
-            <!-- Продукт 3 -->
+            <!-- Продукт 4 -->
             <div class="product-card bg-white rounded-lg p-6">
                 <div class="h-48 bg-cover mb-4 rounded-lg" 
                         style="background-image: url('/img/ris-safaf-as.jpg')"></div>
@@ -163,7 +171,7 @@
                 </div>
             </div>
 
-            <!-- Продукт 4 -->
+            <!-- Продукт 5 -->
             <div class="product-card bg-white rounded-lg p-6">
                 <div class="h-48 bg-cover mb-4 rounded-lg" 
                         style="background-image: url('/img/ris-golden-safaf-as.jpg')"></div>
@@ -177,7 +185,7 @@
                 </div>
             </div>                
 
-            <!-- Продукт 5 -->
+            <!-- Продукт 6 -->
             <div class="product-card bg-white rounded-lg p-6">
                 <div class="h-48 bg-cover mb-4 rounded-lg" 
                         style="background-image: url('/img/keten tohumu yagi.jpg')"></div>
@@ -191,7 +199,7 @@
                 </div>
             </div>
 
-            <!-- Продукт 6 -->
+            <!-- Продукт 7 -->
             <div class="product-card bg-white rounded-lg p-6">
                 <div class="h-48 bg-cover mb-4 rounded-lg" 
                      style="background-image: url('/img/susam yagi-m.jpg')"></div>
@@ -205,7 +213,7 @@
                 </div>
             </div>
 
-                <!-- Продукт 5 -->
+                <!-- Продукт 8 -->
                 <div class="product-card bg-white rounded-lg p-6">
                     <div class="h-48 bg-cover mb-4 rounded-lg" 
                          style="background-image: url('/img/olie-abril.jpg')"></div>
@@ -219,7 +227,7 @@
                     </div>
                 </div>
 
-                <!-- Продукт 5 -->
+                <!-- Продукт 9 -->
                 <div class="product-card bg-white rounded-lg p-6">
                     <div class="h-48 bg-cover mb-4 rounded-lg" 
                          style="background-image: url('/img/olie-ukranian.jpg')"></div>
@@ -235,6 +243,38 @@
             </div>
         </div>
     </section>
+    <!-- Test -->
+        <!-- Продукция -->
+        <section class="py-20 bg-white" id="products">
+            <div class="container mx-auto px-6">
+                <h2 class="text-3xl text-center mb-16 font-bold text-[#025928]">VÅRE PRODUKTER</h2>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+
+                    <!-- Продукт 1 -->
+                    <div class="product-card bg-white rounded-lg p-6 flex flex-col">
+                        <!-- Контейнер для изображения с фиксированным соотношением сторон -->
+                        <div class="relative pt-[75%] mb-4"> <!-- 4:3 соотношение -->
+                            <img src="/img/frukti.jpg" 
+                                alt="Tørrfrukt"
+                                class="absolute top-0 left-0 w-full h-full object-cover rounded-lg"
+                                loading="lazy">
+                        </div>
+                        
+                        <h3 class="text-xl font-bold text-[#734309] mb-2">TØRRFRUKT</h3>
+                        <p class="text-[#025928] mb-4 flex-grow"> <!-- flex-grow для выравнивания кнопки -->
+                            Naturlige tørkede frukter uten tilsatsstoffer
+                        </p>
+                        <div class="flex justify-between items-center">
+                            <button class="bg-[#F2911B] hover:bg-[#da8010] text-white px-4 py-2 rounded transition-colors">
+                                BESTILL
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    <!-- Test -->
 
     <!-- Видео-секция -->
 <section class="py-20 bg-[#F5F5F5]" id="video">
@@ -449,6 +489,26 @@
         </div>
     </footer>
 
+    <script>
+        const scrollTopBtn = document.getElementById('scrollTopBtn');
+
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 200) {
+                scrollTopBtn.classList.remove('opacity-0', 'translate-y-10');
+                scrollTopBtn.classList.add('opacity-100', 'translate-y-0');
+            } else {
+                scrollTopBtn.classList.remove('opacity-100', 'translate-y-0');
+                scrollTopBtn.classList.add('opacity-0', 'translate-y-10');
+            }
+        });
+
+        scrollTopBtn.addEventListener('click', () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+    </script>
     <script>
         // Мобильное меню
         const menuBtn = document.getElementById('menu-btn');
