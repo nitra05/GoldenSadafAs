@@ -73,9 +73,9 @@ body {
     width: 100%;
 }
 
-/* .w-1/3 {
+.w-1/3 {
     width: 33.33%;
-} */
+}
 
 .hover\\:bg-lightbrown:hover {
     background-color: #C6A88B;
