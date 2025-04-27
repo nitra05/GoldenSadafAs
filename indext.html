@@ -12,8 +12,8 @@
             --primary-red: #F21D2F;
             --primary-green: #03A64A;
             --dark-green: #025928;
-            --brown: #734309;
-            --orange: #F2911B;
+            --brown: #F2911B;
+            --orange: #D9CCC7;
         }
 
         body {
@@ -423,10 +423,7 @@
         </div>
     </div>
 </section>
-   <!-- Кнопка "Наверх" -->
-   <button id="scrollTopBtn" class="fixed bottom-8 right-8 bg-[#F21D2F] hover:bg-[#D91829] text-white w-12 h-12 rounded-full shadow-lg opacity-0 transition-all duration-300 ease-out flex items-center justify-center">
-    <i class="fas fa-arrow-up text-xl"></i>
-</button>
+
     <!-- Футер -->
     <footer class="bg-[#025928] text-white py-12">
         <div class="container mx-auto px-6">
@@ -451,30 +448,6 @@
             </div>
         </div>
     </footer>
-
-<script>
-    // Получаем элементы
-    const scrollTopBtn = document.getElementById('scrollTopBtn');
-
-    // Показываем/скрываем кнопку при прокрутке
-    window.addEventListener('scroll', () => {
-        if (window.scrollY > 200) {
-            scrollTopBtn.classList.remove('opacity-0', 'translate-y-10');
-            scrollTopBtn.classList.add('opacity-100', 'translate-y-0');
-        } else {
-            scrollTopBtn.classList.remove('opacity-100', 'translate-y-0');
-            scrollTopBtn.classList.add('opacity-0', 'translate-y-10');
-        }
-    });
-
-    // Плавная прокрутка вверх
-    scrollTopBtn.addEventListener('click', () => {
-        window.scrollTo({
-            top: 0,
-            behavior: 'smooth'
-        });
-    });
-</script>
 
     <script>
         // Мобильное меню
