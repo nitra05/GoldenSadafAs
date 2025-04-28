@@ -40,28 +40,28 @@
     "id": 6,
     "title": "Olje keten tohumu yagi",
     "description": "Naturlige",
-    "thumb": "/img/products/oil/thumb/6-thumb.jpg",
-    "image": "/img/products/oil/full/6-full.jpg"
+    "thumb": "/img/products/oil/thumb/6-keten tohumu yagi-thumb.jpg",
+    "image": "/img/products/oil/full/6-keten tohumu yagi-full.jpg"
   },
   {
     "id": 7,
     "title": "Olje susam yagi",
     "description": "Naturlige",
-    "thumb": "/img/products/oil/thumb/7-thumb.jpg",
-    "image": "/img/products/oil/full/7-full.jpg"
+    "thumb": "/img/products/oil/thumb/7-susam yagi-thumb.jpg",
+    "image": "/img/products/oil/full/7-susam yagi-full.jpg"
   },
   {
     "id": 8,
     "title": "Olje abril",
     "description": "Naturlige",
-    "thumb": "/img/products/oil/thumb/8-thumb.jpg",
-    "image": "/img/products/oil/full/8-full.jpg"
+    "thumb": "/img/products/oil/thumb/8-olie-abril-thumb.jpg",
+    "image": "/img/products/oil/full/8-olie-abril-full.jpg"
   },
   {
     "id": 9,
     "title": "Olje ukranian",
     "description": "Naturlige",
-    "thumb": "/img/products/oil/thumb/9-thumb.jpg",
-    "image": "/img/products/oil/full/9-full.jpg"
+    "thumb": "/img/products/oil/thumb/9-olie-ukranian-thumb.jpg",
+    "image": "/img/products/oil/full/9-olie-ukranian-full.jpg"
   }
 ]
