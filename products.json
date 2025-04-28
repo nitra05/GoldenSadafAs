@@ -1,0 +1,67 @@
+[
+  {
+    "id": 1,
+    "title": "TØRRFRUKT",
+    "description": "Naturlige tørkede frukter uten tilsatsstoffer",
+    "price": "kr/kg",
+    "thumb": "/img/products/driedfruits/1-frukti-thumb.jpg",
+    "image": "/img/products/driedfruits/1-frukti-full.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Tea",
+    "description": "Naturlige",
+    "thumb": "/img/products/tea/2-teabox-thumb.jpg",
+    "image": "/img/products/tea/2-teabox-full.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Tea",
+    "description": "Naturlige",
+    "thumb": "/img/products/tea/3-tea-thumb.jpg",
+    "image": "/img/products/tea/3-tea-full.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Sadaf ris",
+    "description": "Høy kvalitet basmati sela",
+    "thumb": "/img/products/ris/thumb/4-ris-sadaf-thumb.jpg",
+    "image": "/img/products/ris/full/4-ris-sadaf-full.jpg"
+  },
+  {
+    "id": 5,
+    "title": "Golden sadaf ris",
+    "description": "Høy kvalitet basmati sella",
+    "thumb": "/img/products/ris/thumb/5-ris-golden-sadaf-thumb.jpg",
+    "image": "/img/products/ris/full/5-ris-golden-sadaf-full.jpg"
+  }
+  ,
+  {
+    "id": 6,
+    "title": "Olje keten tohumu yagi",
+    "description": "Naturlige",
+    "thumb": "/img/products/oil/thumb/6-thumb.jpg",
+    "image": "/img/products/oil/full/6-full.jpg"
+  },
+  {
+    "id": 7,
+    "title": "Olje susam yagi",
+    "description": "Naturlige",
+    "thumb": "/img/products/oil/thumb/7-thumb.jpg",
+    "image": "/img/products/oil/full/7-full.jpg"
+  },
+  {
+    "id": 8,
+    "title": "Olje abril",
+    "description": "Naturlige",
+    "thumb": "/img/products/oil/thumb/8-thumb.jpg",
+    "image": "/img/products/oil/full/8-full.jpg"
+  },
+  {
+    "id": 9,
+    "title": "Olje ukranian",
+    "description": "Naturlige",
+    "thumb": "/img/products/oil/thumb/9-thumb.jpg",
+    "image": "/img/products/oil/full/9-full.jpg"
+  }
+]
