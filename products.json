@@ -8,6 +8,69 @@
   },
   {
     "id": 2,
+    "title": "TØRRFRUKT",
+    "description": "Naturlige tørkede frukter uten tilsatsstoffer",
+    "thumb": "/img/products/tmp/1.jpg",
+    "image": "/img/products/tmp/1.jpg"
+  },
+  {
+    "id": 3,
+    "title": "TØRRFRUKT",
+    "description": "Naturlige tørkede frukter uten tilsatsstoffer",
+    "thumb": "/img/products/tmp/2.jpg",
+    "image": "/img/products/tmp/2.jpg"
+  },
+  {
+    "id": 4,
+    "title": "TØRRFRUKT",
+    "description": "Naturlige tørkede frukter uten tilsatsstoffer",
+    "thumb": "/img/products/tmp/3.jpg",
+    "image": "/img/products/tmp/3.jpg"
+  },
+  {
+    "id": 5,
+    "title": "TØRRFRUKT",
+    "description": "Naturlige tørkede frukter uten tilsatsstoffer",
+    "thumb": "/img/products/tmp/4.jpg",
+    "image": "/img/products/tmp/4.jpg"
+  },
+  {
+    "id": 6,
+    "title": "TØRRFRUKT",
+    "description": "Naturlige tørkede frukter uten tilsatsstoffer",
+    "thumb": "/img/products/tmp/5.jpg",
+    "image": "/img/products/tmp/5.jpg"
+  },
+  {
+    "id": 7,
+    "title": "TØRRFRUKT",
+    "description": "Naturlige tørkede frukter uten tilsatsstoffer",
+    "thumb": "/img/products/tmp/6.jpg",
+    "image": "/img/products/tmp/6.jpg"
+  },
+  {
+    "id": 8,
+    "title": "TØRRFRUKT",
+    "description": "Naturlige tørkede frukter uten tilsatsstoffer",
+    "thumb": "/img/products/tmp/7.jpg",
+    "image": "/img/products/tmp/7.jpg"
+  },
+  {
+    "id": 9,
+    "title": "TØRRFRUKT",
+    "description": "Naturlige tørkede frukter uten tilsatsstoffer",
+    "thumb": "/img/products/tmp/8.jpg",
+    "image": "/img/products/tmp/8.jpg"
+  },
+  {
+    "id": 10,
+    "title": "TØRRFRUKT",
+    "description": "Naturlige tørkede frukter uten tilsatsstoffer",
+    "thumb": "/img/products/tmp/9.jpg",
+    "image": "/img/products/tmp/9.jpg"
+  },  
+  {
+    "id": 2,
     "title": "Tea",
     "description": "Naturlige",
     "thumb": "/img/products/tea/2-teabox-thumb.jpg",
@@ -41,6 +104,41 @@
     "description": "Naturlige",
     "thumb": "/img/products/oil/6-keten tohumu yagi-thumb.jpg",
     "image": "/img/products/oil/6-keten tohumu yagi-full.jpg"
+  },
+  {
+    "id": 10,
+    "title": "Olje susam yagi 2Lt",
+    "description": "Naturlige",
+    "thumb": "/img/products/tmp/9.jpg",
+    "image": "/img/products/tmp/9.jpg"
+  },  
+  {
+    "id": 12,
+    "title": "Olje susam yagi 250ml",
+    "description": "Naturlige",
+    "thumb": "/img/products/tmp/11.jpg",
+    "image": "/img/products/tmp/11.jpg"
+  },  
+  {
+    "id": 13,
+    "title": "Olje susam yagi 500ml",
+    "description": "Naturlige",
+    "thumb": "/img/products/tmp/12.jpg",
+    "image": "/img/products/tmp/12.jpg"
+  },  
+  {
+    "id": 14,
+    "title": "Olje susam yagi 1Lt",
+    "description": "Naturlige",
+    "thumb": "/img/products/tmp/13.jpg",
+    "image": "/img/products/tmp/13.jpg"
+  },
+  {
+    "id": 11,
+    "title": "Olje susam yagi 2Lt",
+    "description": "Naturlige",
+    "thumb": "/img/products/tmp/10.jpg",
+    "image": "/img/products/tmp/10.jpg"
   },
   {
     "id": 7,
