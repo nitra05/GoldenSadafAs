@@ -98,5 +98,5 @@ input, textarea {
 }
 
 .scrollTopBtn {
-    z-index: 1000;
+    z-index: 9999;
 }
