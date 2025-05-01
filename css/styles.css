@@ -96,3 +96,7 @@ input, textarea {
     transform: translateY(-5px);
     box-shadow: 0 10px 15px rgba(115, 67, 9, 0.1);
 }
+
+.scrollTopBtn {
+    z-index: 1000;
+}
