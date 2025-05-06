@@ -102,4 +102,11 @@ input, textarea {
     bottom: 20px;
     right: 20px;
     z-index: 9999;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
   }

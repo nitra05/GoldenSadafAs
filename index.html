@@ -52,15 +52,32 @@
 </head>
 <body class="bg-gray-50">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <button id="scrollTopBtn"
-    class="fixed bottom-8 right-8 bg-white hover:bg-gray-100 text-black w-12 h-12 rounded-full shadow-lg 
-           opacity-0 translate-y-10 transition-all duration-300 ease-out flex items-center justify-center 
-           border-2 border-black z-50">
-    <svg class="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-      <path d="M12 19V5M5 12l7-7 7 7"/>
-    </svg>
-  </button>
+   
+     <!-- scroll button -->
+     <button id="scrollTopBtn"
+     class="fixed bottom-8 right-8 bg-white hover:bg-gray-100 text-black w-12 h-12 rounded-full shadow-lg 
+            opacity-0 translate-y-10 transition-all duration-300 ease-out flex items-center justify-center 
+            border-2 border-black z-50">
+     <svg class="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+         <path d="M12 19V5M5 12l7-7 7 7"/>
+     </svg>
+ </button>
 
+ <!-- mobile menu -->
+  <div class="md:hidden">
+    <button id="mobileMenuButton" class="text-white bg-gray-800 p-2 rounded">
+        <i class="fa fa-bars"></i>
+    </button>
+
+    <div id="mobileMenu" class="hidden bg-gray-800 text-white p-4">
+        <ul>
+            <li><a href="#home" class="block py-2">HJEM</a></li>
+            <li><a href="#products" class="block py-2">PRODUKTER</a></li>
+            <li><a href="#about" class="block py-2">OM OSS</a></li>
+            <li><a href="#contact" class="block py-2">KONTAKT</a></li>
+        </ul>
+    </div>
+</div>
     <!-- navigation -->
     <nav class="fixed w-full bg-[#734309] text-white shadow-lg z-50">
         <div class="container mx-auto px-6 py-4">
@@ -325,7 +342,7 @@
         </div>
     </footer>
 
-    <script>
+    <!-- <script>
         const scrollTopBtn = document.getElementById('scrollTopBtn');
 
         window.addEventListener('scroll', () => {
@@ -364,8 +381,38 @@
                 }
             });
         });
-    </script>
+    </script> -->
 
+    <script>
+        // Мобильное меню
+        const mobileMenuButton = document.getElementById('mobileMenuButton');
+        const mobileMenu = document.getElementById('mobileMenu');
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Кнопка вверх
+        const scrollTopBtn = document.getElementById('scrollTopBtn');
+
+        // Показ кнопки при прокрутке
+        window.onscroll = () => {
+            if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                scrollTopBtn.classList.remove('opacity-0', 'translate-y-10');
+                scrollTopBtn.classList.add('opacity-100', 'translate-y-0');
+            } else {
+                scrollTopBtn.classList.remove('opacity-100', 'translate-y-0');
+                scrollTopBtn.classList.add('opacity-0', 'translate-y-10');
+            }
+        };
+
+        // Плавный скроллинг вверх
+        scrollTopBtn.addEventListener('click', () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+    </script>
 
 <script>
     fetch('/products.json')
