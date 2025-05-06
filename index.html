@@ -85,8 +85,8 @@
                             <li><a href="#contact" class="block py-2">KONTAKT</a></li>
                     </ul>
 
-                    <!-- mobile menu -->
-                    <div id="mobileMenu" class="md:hidden hidden mt-4 bg-[#603d07] rounded-lg p-4">
+                    <div id="mobileMenu"
+                         class="md:hidden hidden fixed bottom-0 left-0 w-full bg-[#603d07] rounded-t-lg p-4 z-50 transition-transform duration-300 transform translate-y-full">
                         <ul class="space-y-2">
                             <li><a href="#home" class="block py-2 border-b border-[#F2911B]">HJEM</a></li>
                             <li><a href="#products" class="block py-2 border-b border-[#F2911B]">PRODUKTER</a></li>
@@ -417,7 +417,21 @@
         });
     </script>
 
-<script>
+    <script>
+        let lastScrollY = window.scrollY;
+        const menu = document.getElementById('mobileMenu');
+        
+        window.addEventListener('scroll', () => {
+        if (window.scrollY > lastScrollY) {
+            menu.classList.add('translate-y-full');
+        } else {
+            menu.classList.remove('translate-y-full');
+        }
+        lastScrollY = window.scrollY;
+        });
+    </script>
+
+    <script>
     fetch('/products.json')
       .then(response => {
         if (!response.ok) throw new Error('Network error');
