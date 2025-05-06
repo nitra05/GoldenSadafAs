@@ -64,31 +64,43 @@
  </button>
 
 
-    <!-- navigation -->
-    <nav id="mobileNav" class="fixed top-0 left-0 w-full bg-[#603d07] z-50 transition-transform duration-300">
-        <div class="flex items-center justify-between p-4">
-            <div class="text-white font-bold">Logo</div>
-            <button id="menuToggle" class="text-white border border-[#F2911B] px-3 py-2 rounded">
-                ☰
-            </button>
-        </div>
-        <div id="mobileMenu" class="hidden px-4 pb-4">
-            <ul class="space-y-2">
-                <li><a href="#home" class="block py-2 border-b border-[#F2911B]">HJEM</a></li>
-                <li><a href="#products" class="block py-2 border-b border-[#F2911B]">PRODUKTER</a></li>
-                <li><a href="#about" class="block py-2 border-b border-[#F2911B]">OM OSS</a></li>
-                <li><a href="#contact" class="block py-2">KONTAKT</a></li>
-            </ul>
-        </div>
-
-        <ul class="hidden md:flex space-x-6">
-            <li><a href="#home" class="relative text-white after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-0 after:h-[2px] after:bg-white after:transition-all after:duration-300 hover:after:w-full">HJEM</a></li>
-            <li><a href="#products" class="relative text-white after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-0 after:h-[2px] after:bg-white after:transition-all after:duration-300 hover:after:w-full">PRODUKTER</a></li>
-            <li><a href="#about" class="relative text-white after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-0 after:h-[2px] after:bg-white after:transition-all after:duration-300 hover:after:w-full">OM OSS</a></li>
-            <li><a href="#contact" class="relative text-white after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-0 after:h-[2px] after:bg-white after:transition-all after:duration-300 hover:after:w-full">KONTAKT</a></li>
-        </ul>
-    </nav>
-
+   <!-- navigation -->
+<nav id="mobileNav" class="fixed top-0 left-0 w-full bg-[#603d07] z-50 transition-transform duration-300">
+    <div class="flex items-center justify-between px-4 py-3">
+      <div class="text-white font-bold text-lg">
+        <span class="text-[#F21D2F]">GOLDEN</span> SADAF AS
+      </div>
+      <button id="menuToggle" class="text-white border border-[#F2911B] px-3 py-2 rounded md:hidden">
+        ☰
+      </button>
+  
+      <!-- Desktop menu -->
+      <ul class="hidden md:flex space-x-6 items-center">
+        <li>
+          <a href="#home" class="relative text-white after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-0 after:h-[2px] after:bg-white after:transition-all after:duration-300 hover:after:w-full">HJEM</a>
+        </li>
+        <li>
+          <a href="#products" class="relative text-white after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-0 after:h-[2px] after:bg-white after:transition-all after:duration-300 hover:after:w-full">PRODUKTER</a>
+        </li>
+        <li>
+          <a href="#about" class="relative text-white after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-0 after:h-[2px] after:bg-white after:transition-all after:duration-300 hover:after:w-full">OM OSS</a>
+        </li>
+        <li>
+          <a href="#contact" class="relative text-white after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-0 after:h-[2px] after:bg-white after:transition-all after:duration-300 hover:after:w-full">KONTAKT</a>
+        </li>
+      </ul>
+    </div>
+  
+    <!-- Mobile menu -->
+    <div id="mobileMenu" class="hidden px-4 pb-4 md:hidden">
+      <ul class="space-y-2 text-white">
+        <li><a href="#home" class="block py-2 border-b border-[#F2911B]">HJEM</a></li>
+        <li><a href="#products" class="block py-2 border-b border-[#F2911B]">PRODUKTER</a></li>
+        <li><a href="#about" class="block py-2 border-b border-[#F2911B]">OM OSS</a></li>
+        <li><a href="#contact" class="block py-2">KONTAKT</a></li>
+      </ul>
+    </div>
+  </nav>
  <!-- hero section -->
 <section id="home" class="hero-pattern text-white pt-12 md:pt-24 pb-12 md:pb-20">
     <div class="container mx-auto px-4 sm:px-6">
@@ -340,11 +352,28 @@
     <script>
         const menuToggle = document.getElementById('menuToggle');
         const mobileMenu = document.getElementById('mobileMenu');
-    
+        const nav = document.getElementById('mobileNav');
+      
         menuToggle.addEventListener('click', () => {
-            mobileMenu.classList.toggle('hidden');
+          mobileMenu.classList.toggle('hidden');
         });
-    </script>
+      
+        let lastScrollTop = 0;
+        window.addEventListener('scroll', function () {
+          const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+      
+          if (scrollTop > lastScrollTop) {
+            // Прокрутка вниз
+            nav.style.transform = 'translateY(-100%)';
+          } else {
+            // Прокрутка вверх
+            nav.style.transform = 'translateY(0)';
+          }
+      
+          lastScrollTop = scrollTop <= 0 ? 0 : scrollTop;
+        });
+      </script>
+      
 
     <script>
         // Кнопка вверх
