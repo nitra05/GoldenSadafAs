@@ -63,34 +63,37 @@
      </svg>
  </button>
 
- <!-- mobile menu -->
-  <div class="md:hidden">
-    <button id="mobileMenuButton" class="text-white bg-gray-800 p-2 rounded">
-        <i class="fa fa-bars"></i>
-    </button>
 
-    <div id="mobileMenu" class="hidden bg-gray-800 text-white p-4">
-        <ul>
-            <li><a href="#home" class="block py-2">HJEM</a></li>
-            <li><a href="#products" class="block py-2">PRODUKTER</a></li>
-            <li><a href="#about" class="block py-2">OM OSS</a></li>
-            <li><a href="#contact" class="block py-2">KONTAKT</a></li>
-        </ul>
-    </div>
-</div>
     <!-- navigation -->
     <nav class="fixed w-full bg-[#734309] text-white shadow-lg z-50">
         <div class="container mx-auto px-6 py-4">
             <div class="flex justify-between items-center">
                 <div class="text-2xl font-bold">
                     <span class="text-[#F21D2F]">GOLDEN</span> SADAF AS
-                </div>
-                <div class="hidden md:flex space-x-8">
-                    <a href="#home" class="nav-link">HJEM</a>
-                    <a href="#products" class="nav-link">PRODUKTER</a>
-                    <a href="#about" class="nav-link">OM OSS</a>
-                    <a href="#contact" class="nav-link">KONTAKT</a>
-                </div>
+                </div>               
+                    <button id="mobileMenuButton" class="md:hidden bg-[#F2911B] hover:bg-[#f8ac3c] text-white p-2 rounded border-2 border-white">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none"
+                                viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/>
+                        </svg>
+                    </button>
+                    
+                    <ul class="hidden md:flex space-x-6">
+                            <li><a href="#home" class="block py-2">HJEM</a></li>
+                            <li><a href="#products" class="block py-2">PRODUKTER</a></li>
+                            <li><a href="#about" class="block py-2">OM OSS</a></li>
+                            <li><a href="#contact" class="block py-2">KONTAKT</a></li>
+                    </ul>
+
+                    <!-- mobile menu -->
+                    <div id="mobileMenu" class="md:hidden hidden mt-4 bg-[#603d07] rounded-lg p-4">
+                        <ul class="space-y-2">
+                            <li><a href="#home" class="block py-2 border-b border-[#F2911B]">HJEM</a></li>
+                            <li><a href="#products" class="block py-2 border-b border-[#F2911B]">PRODUKTER</a></li>
+                            <li><a href="#about" class="block py-2 border-b border-[#F2911B]">OM OSS</a></li>
+                            <li><a href="#contact" class="block py-2">KONTAKT</a></li>
+                        </ul>
+                    </div>
             </div>
         </div>
     </nav>
@@ -300,7 +303,7 @@
                     
                     <a href="https://www.google.com/maps/dir//Kl%C3%B8fterhagen+9C,+1067+Oslo,+Norway/@59.917072,10.752,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x46416e7bfd89e6cf:0xd04027fb4528a60c!2m2!1d10.7520004!2d59.9170699" 
                        target="_blank"
-                       class="bg-[#F21D2F] hover:bg-[#D91829] text-white px-6 py-3 rounded-lg font-bold text-center transition">
+                       class="bg-[#F21D2F] hover:bg-[#D91829] text-white px-6 py-3 rounded-lg font-bold text-center transition whitespace-nowrap text-sm sm:text-base">
                         <i class="fas fa-route mr-2"></i> PROLIGG MARGRUTEN
                     </a>
                     
