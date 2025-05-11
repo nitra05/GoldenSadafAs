@@ -5,7 +5,7 @@
     "description": "Naturlige",
     "thumb": "/img/groups/Tørketfrukt.jpg",
     "image": "/img/groups/Tørketfrukt.jpg",
-	"url" : "https://goldensadafas.no/driedfruits.html"
+	"url" : "driedfruits.html"
   },
   {
     "id": 2,
@@ -13,7 +13,7 @@
     "description": "Naturlige",
     "thumb": "/img/groups/Te.jpg",
     "image": "/img/groups/Te.jpg",
-	"url" : "https://goldensadafas.no/tea.html"
+	"url" : "tea.html"
   },
   {
     "id": 3,
@@ -21,7 +21,7 @@
     "description": "Naturlige",
     "thumb": "/img/groups/Ris.jpg",
     "image": "/img/groups/Ris.jpg",
-	"url" : "https://goldensadafas.no/ris.html"
+	"url" : "ris.html"
   },
   {
     "id": 4,
@@ -29,6 +29,6 @@
     "description": "Naturlige",
     "thumb": "/img/groups/Matolje.jpg",
     "image": "/img/groups/Matolje.jpg",
-	"url" : "https://goldensadafas.no/oil.html"
+	"url" : "oil.html"
   }
 ]
