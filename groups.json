@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "title": "Tørket frukt",
+    "description": "Naturlige",
+    "thumb": "/img/groups/Tørketfrukt.jpg",
+    "image": "/img/groups/Tørketfrukt.jpg",
+	"url" : "https://goldensadafas.no/driedfruits.html"
+  },
+  {
+    "id": 2,
+    "title": "Te",
+    "description": "Naturlige",
+    "thumb": "/img/groups/Te.jpg",
+    "image": "/img/groups/Te.jpg",
+	"url" : "https://goldensadafas.no/tea.html"
+  },
+  {
+    "id": 3,
+    "title": "Ris",
+    "description": "Naturlige",
+    "thumb": "/img/groups/Ris.jpg",
+    "image": "/img/groups/Ris.jpg",
+	"url" : "https://goldensadafas.no/ris.html"
+  },
+  {
+    "id": 4,
+    "title": "Matolje",
+    "description": "Naturlige",
+    "thumb": "/img/groups/Matolje.jpg",
+    "image": "/img/groups/Matolje.jpg",
+	"url" : "https://goldensadafas.no/oil.html"
+  }
+]

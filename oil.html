@@ -131,7 +131,7 @@
     </div>
 </section>
     
-<!-- groups -->
+<!-- products -->
 <section class="py-20 bg-white" id="products">
     <div class="container mx-auto px-6">
         <h2 class="text-3xl text-center mb-16 font-bold text-[#025928]">VÅRE PRODUKTER</h2>
@@ -415,7 +415,7 @@
     </script>
 
     <script>
-    fetch('/groups.json')
+    fetch('/products.json')
       .then(response => {
         if (!response.ok) throw new Error('Network error');
         return response.json();
@@ -423,25 +423,25 @@
       .then(products => {
         const container = document.getElementById('products-container');
         
-        products.forEach(groups => {
+        products.forEach(product => {
           const productCard = `
-          < a href="${groups.url}">
             <div class="product-card bg-white rounded-lg p-6 flex flex-col">
               <div class="relative pt-[75%] mb-4" 
-                   data-large="${groups.image}"
-                   onclick="openLightbox('${groups.image}')">
-                <img src="${groups.thumb}" 
-                     alt="${groups.title}" 
+                   data-large="${product.image}"
+                   onclick="openLightbox('${product.image}')">
+                <img src="${product.thumb}" 
+                     alt="${product.title}" 
                      class="absolute top-0 left-0 w-full h-full object-cover rounded-lg"
                      loading="lazy">
               </div>
-              <h3 class="text-xl font-bold text-[#734309] mb-2">${groups.title}</h3>
-              <p class="text-[#025928] mb-4 flex-grow">${groups.description}</p>
+              <h3 class="text-xl font-bold text-[#734309] mb-2">${product.title}</h3>
+              <p class="text-[#025928] mb-4 flex-grow">${product.description}</p>
               <div class="flex justify-between items-center">
-                ${groups.price ? `<span class="text-[#F21D2F] font-bold text-lg">${groups.price}</span>` : ''}
+                ${product.price ? `<span class="text-[#F21D2F] font-bold text-lg">${product.price}</span>` : ''}
+               
               </div>
             </div>
-            </a>`;
+          `;
           
           container.insertAdjacentHTML('beforeend', productCard);
         });
