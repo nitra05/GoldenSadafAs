@@ -9,7 +9,7 @@
   },
   {
     "id": 2,
-    "title": "TØRRFRUKT",
+    "title": "Svarte rosiner",
     "description": "Naturlige tørkede frukter uten tilsatsstoffer",
     "thumb": "/img/products/tmp/1.jpg",
     "image": "/img/products/tmp/1.jpg",
@@ -46,15 +46,7 @@
     "thumb": "/img/products/tmp/5.jpg",
     "image": "/img/products/tmp/5.jpg",
 	"type": "driedfruits"
-  },
-  {
-    "id": 7,
-    "title": "TØRRFRUKT",
-    "description": "Naturlige tørkede frukter uten tilsatsstoffer",
-    "thumb": "/img/products/tmp/6.jpg",
-    "image": "/img/products/tmp/6.jpg",
-	"type": "driedfruits"
-  },
+  },  
   {
     "id": 8,
     "title": "TØRRFRUKT",
@@ -78,7 +70,87 @@
     "thumb": "/img/products/tmp/9.jpg",
     "image": "/img/products/tmp/9.jpg",
 	"type": "driedfruits"
-  },  
+  },
+  {
+    "id": 101,
+    "title": "TØRRFRUKT",
+    "description": "Naturlige tørkede frukter uten tilsatsstoffer",
+    "thumb": "/img/products/driedfruits/101.jpg",
+    "image": "/img/products/driedfruits/101.jpg",
+	"type": "driedfruits"
+  },
+  {
+    "id": 102,
+    "title": "TØRRFRUKT",
+    "description": "Naturlige tørkede frukter uten tilsatsstoffer",
+    "thumb": "/img/products/driedfruits/102.jpg",
+    "image": "/img/products/driedfruits/102.jpg",
+	"type": "driedfruits"
+  },
+  {
+    "id": 103,
+    "title": "TØRRFRUKT",
+    "description": "Naturlige tørkede frukter uten tilsatsstoffer",
+    "thumb": "/img/products/driedfruits/103.jpg",
+    "image": "/img/products/driedfruits/103.jpg",
+	"type": "driedfruits"
+  },
+  {
+    "id": 104,
+    "title": "TØRRFRUKT",
+    "description": "Naturlige tørkede frukter uten tilsatsstoffer",
+    "thumb": "/img/products/driedfruits/104.jpg",
+    "image": "/img/products/driedfruits/104.jpg",
+	"type": "driedfruits"
+  },
+  {
+    "id": 105,
+    "title": "TØRRFRUKT",
+    "description": "Naturlige tørkede frukter uten tilsatsstoffer",
+    "thumb": "/img/products/driedfruits/105.jpg",
+    "image": "/img/products/driedfruits/105.jpg",
+	"type": "driedfruits"
+  },
+  {
+    "id": 106,
+    "title": "TØRRFRUKT",
+    "description": "Naturlige tørkede frukter uten tilsatsstoffer",
+    "thumb": "/img/products/driedfruits/106.jpg",
+    "image": "/img/products/driedfruits/106.jpg",
+	"type": "driedfruits"
+  },
+  {
+    "id": 107,
+    "title": "TØRRFRUKT",
+    "description": "Naturlige tørkede frukter uten tilsatsstoffer",
+    "thumb": "/img/products/driedfruits/107.jpg",
+    "image": "/img/products/driedfruits/107.jpg",
+	"type": "driedfruits"
+  },
+  {
+    "id": 108,
+    "title": "TØRRFRUKT",
+    "description": "Naturlige tørkede frukter uten tilsatsstoffer",
+    "thumb": "/img/products/driedfruits/108.jpg",
+    "image": "/img/products/driedfruits/108.jpg",
+	"type": "driedfruits"
+  },
+  {
+    "id": 109,
+    "title": "TØRRFRUKT",
+    "description": "Naturlige tørkede frukter uten tilsatsstoffer",
+    "thumb": "/img/products/driedfruits/109.jpg",
+    "image": "/img/products/driedfruits/109.jpg",
+	"type": "driedfruits"
+  },
+  {
+    "id": 110,
+    "title": "TØRRFRUKT",
+    "description": "Naturlige tørkede frukter uten tilsatsstoffer",
+    "thumb": "/img/products/driedfruits/110.jpg",
+    "image": "/img/products/driedfruits/110.jpg",
+	"type": "driedfruits"
+  },
   {
     "id": 2,
     "title": "Tea",
