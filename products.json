@@ -46,14 +46,6 @@
     "thumb": "/img/products/tmp/5.jpg",
     "image": "/img/products/tmp/5.jpg",
 	"type": "driedfruits"
-  },  
-  {
-    "id": 8,
-    "title": "TØRRFRUKT",
-    "description": "Naturlige tørkede frukter uten tilsatsstoffer",
-    "thumb": "/img/products/tmp/7.jpg",
-    "image": "/img/products/tmp/7.jpg",
-	"type": "driedfruits"
   },
   {
     "id": 9,
@@ -152,6 +144,38 @@
 	"type": "driedfruits"
   },
   {
+    "id": 111,
+    "title": "TØRRFRUKT",
+    "description": "Naturlige tørkede frukter uten tilsatsstoffer",
+    "thumb": "/img/products/driedfruits/111.jpg",
+    "image": "/img/products/driedfruits/111.jpg",
+	"type": "driedfruits"
+  },
+  {
+    "id": 112,
+    "title": "TØRRFRUKT",
+    "description": "Naturlige tørkede frukter uten tilsatsstoffer",
+    "thumb": "/img/products/driedfruits/112.jpg",
+    "image": "/img/products/driedfruits/112.jpg",
+	"type": "driedfruits"
+  },
+  {
+    "id": 113,
+    "title": "TØRRFRUKT",
+    "description": "Naturlige tørkede frukter uten tilsatsstoffer",
+    "thumb": "/img/products/driedfruits/113.jpg",
+    "image": "/img/products/driedfruits/113.jpg",
+	"type": "driedfruits"
+  },
+  {
+    "id": 114,
+    "title": "TØRRFRUKT",
+    "description": "Naturlige tørkede frukter uten tilsatsstoffer",
+    "thumb": "/img/products/driedfruits/114.jpg",
+    "image": "/img/products/driedfruits/114.jpg",
+	"type": "driedfruits"
+  },
+  {
     "id": 2,
     "title": "Tea",
     "description": "Naturlige",
@@ -166,6 +190,30 @@
     "thumb": "/img/products/tea/3-tea-thumb.jpg",
     "image": "/img/products/tea/3-tea-full.jpg",
 	"type": "tea"
+  },
+  {
+    "id": 210,
+    "title": "Tea",
+    "description": "Naturlige",
+    "thumb": "/img/products/tea/4.jpg",
+    "image": "/img/products/tea/4.jpg",
+	"type": "tea"
+  },
+  {
+    "id": 211,
+    "title": "Tea",
+    "description": "Naturlige",
+    "thumb": "/img/products/tea/5.jpg",
+    "image": "/img/products/tea/5.jpg",
+	"type": "tea"
+  },
+  {
+    "id": 4,
+    "title": "Sadaf ris",
+    "description": "Høy kvalitet basmati sela",
+    "thumb": "/img/products/ris/4-ris-sadaf-thumb.jpg",
+    "image": "/img/products/ris/4-ris-sadaf-full.jpg",
+	"type": "ris"
   },
   {
     "id": 4,
