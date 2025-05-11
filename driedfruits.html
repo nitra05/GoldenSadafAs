@@ -103,7 +103,7 @@
   </nav>
  <!-- hero section -->
 <section id="home">
-    <div class="full-width-img">           
+    <div class="background-image">           
         <img src="/img/groups/header-driedfruits.jpg">
     </div>
 </section>
@@ -435,9 +435,12 @@
 </body>
 </html>
 <style>
-.full-width-img {
-  width: 100%;
-  height: auto; /* сохраняет пропорции */
-  display: block; /* убирает лишние отступы */
+.background-image {
+  width: 100vw;      /* 100% ширины окна */
+  height: 300px;     /* задайте нужную высоту */
+  background-image: url('your-image.jpg');
+  background-size: cover;     /* растягивает, сохраняя пропорции */
+  background-position: center; /* центрирует */
+  background-repeat: no-repeat;
 }
 </style>
