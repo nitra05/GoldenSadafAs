@@ -423,7 +423,7 @@
       .then(products => {
         const container = document.getElementById('products-container');
         
-        products.forEach(product => {
+        products.filter(type === "driedfruits").forEach(product => {
           const productCard = `
             <div class="product-card bg-white rounded-lg p-6 flex flex-col">
               <div class="relative pt-[75%] mb-4" 

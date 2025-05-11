@@ -4,98 +4,112 @@
     "title": "TØRRFRUKT",
     "description": "Naturlige tørkede frukter uten tilsatsstoffer",
     "thumb": "/img/products/driedfruits/1-frukti-thumb.jpg",
-    "image": "/img/products/driedfruits/1-frukti-full.jpg"
+    "image": "/img/products/driedfruits/1-frukti-full.jpg",
+	"type": "driedfruits"
   },
   {
     "id": 2,
     "title": "TØRRFRUKT",
     "description": "Naturlige tørkede frukter uten tilsatsstoffer",
     "thumb": "/img/products/tmp/1.jpg",
-    "image": "/img/products/tmp/1.jpg"
+    "image": "/img/products/tmp/1.jpg",
+	"type": "driedfruits"
   },
   {
     "id": 3,
     "title": "TØRRFRUKT",
     "description": "Naturlige tørkede frukter uten tilsatsstoffer",
     "thumb": "/img/products/tmp/2.jpg",
-    "image": "/img/products/tmp/2.jpg"
+    "image": "/img/products/tmp/2.jpg",
+	"type": "driedfruits"
   },
   {
     "id": 4,
     "title": "TØRRFRUKT",
     "description": "Naturlige tørkede frukter uten tilsatsstoffer",
     "thumb": "/img/products/tmp/3.jpg",
-    "image": "/img/products/tmp/3.jpg"
+    "image": "/img/products/tmp/3.jpg",
+	"type": "driedfruits"
   },
   {
     "id": 5,
     "title": "TØRRFRUKT",
     "description": "Naturlige tørkede frukter uten tilsatsstoffer",
     "thumb": "/img/products/tmp/4.jpg",
-    "image": "/img/products/tmp/4.jpg"
+    "image": "/img/products/tmp/4.jpg",
+	"type": "driedfruits"
   },
   {
     "id": 6,
     "title": "TØRRFRUKT",
     "description": "Naturlige tørkede frukter uten tilsatsstoffer",
     "thumb": "/img/products/tmp/5.jpg",
-    "image": "/img/products/tmp/5.jpg"
+    "image": "/img/products/tmp/5.jpg",
+	"type": "driedfruits"
   },
   {
     "id": 7,
     "title": "TØRRFRUKT",
     "description": "Naturlige tørkede frukter uten tilsatsstoffer",
     "thumb": "/img/products/tmp/6.jpg",
-    "image": "/img/products/tmp/6.jpg"
+    "image": "/img/products/tmp/6.jpg",
+	"type": "driedfruits"
   },
   {
     "id": 8,
     "title": "TØRRFRUKT",
     "description": "Naturlige tørkede frukter uten tilsatsstoffer",
     "thumb": "/img/products/tmp/7.jpg",
-    "image": "/img/products/tmp/7.jpg"
+    "image": "/img/products/tmp/7.jpg",
+	"type": "driedfruits"
   },
   {
     "id": 9,
     "title": "TØRRFRUKT",
     "description": "Naturlige tørkede frukter uten tilsatsstoffer",
     "thumb": "/img/products/tmp/8.jpg",
-    "image": "/img/products/tmp/8.jpg"
+    "image": "/img/products/tmp/8.jpg",
+	"type": "driedfruits"
   },
   {
     "id": 10,
     "title": "TØRRFRUKT",
     "description": "Naturlige tørkede frukter uten tilsatsstoffer",
     "thumb": "/img/products/tmp/9.jpg",
-    "image": "/img/products/tmp/9.jpg"
+    "image": "/img/products/tmp/9.jpg",
+	"type": "driedfruits"
   },  
   {
     "id": 2,
     "title": "Tea",
     "description": "Naturlige",
     "thumb": "/img/products/tea/2-teabox-thumb.jpg",
-    "image": "/img/products/tea/2-teabox-full.jpg"
+    "image": "/img/products/tea/2-teabox-full.jpg",
+	"type": "tea"
   },
   {
     "id": 3,
     "title": "Tea",
     "description": "Naturlige",
     "thumb": "/img/products/tea/3-tea-thumb.jpg",
-    "image": "/img/products/tea/3-tea-full.jpg"
+    "image": "/img/products/tea/3-tea-full.jpg",
+	"type": "tea"
   },
   {
     "id": 4,
     "title": "Sadaf ris",
     "description": "Høy kvalitet basmati sela",
     "thumb": "/img/products/ris/4-ris-sadaf-thumb.jpg",
-    "image": "/img/products/ris/4-ris-sadaf-full.jpg"
+    "image": "/img/products/ris/4-ris-sadaf-full.jpg",
+	"type": "ris"
   },
   {
     "id": 5,
     "title": "Golden sadaf ris",
     "description": "Høy kvalitet basmati sella",
     "thumb": "/img/products/ris/5-ris-golden-sadaf-thumb.jpg",
-    "image": "/img/products/ris/5-ris-golden-sadaf-full.jpg"
+    "image": "/img/products/ris/5-ris-golden-sadaf-full.jpg",
+	"type": "ris"
   }
   ,
   {
@@ -103,55 +117,63 @@
     "title": "Olje keten tohumu yagi",
     "description": "Naturlige",
     "thumb": "/img/products/oil/6-keten tohumu yagi-thumb.jpg",
-    "image": "/img/products/oil/6-keten tohumu yagi-full.jpg"
+    "image": "/img/products/oil/6-keten tohumu yagi-full.jpg",
+	"type": "oil"
   },  
   {
     "id": 12,
     "title": "Olje susam yagi 250ml",
     "description": "Naturlige",
     "thumb": "/img/products/tmp/11.jpg",
-    "image": "/img/products/tmp/11.jpg"
+    "image": "/img/products/tmp/11.jpg",
+	"type": "oil"
   },  
   {
     "id": 13,
     "title": "Olje susam yagi 500ml",
     "description": "Naturlige",
     "thumb": "/img/products/tmp/12.jpg",
-    "image": "/img/products/tmp/12.jpg"
+    "image": "/img/products/tmp/12.jpg",
+	"type": "oil"
   },  
   {
     "id": 14,
     "title": "Olje susam yagi 1Lt",
     "description": "Naturlige",
     "thumb": "/img/products/tmp/13.jpg",
-    "image": "/img/products/tmp/13.jpg"
+    "image": "/img/products/tmp/13.jpg",
+	"type": "oil"
   },
   {
     "id": 11,
     "title": "Olje susam yagi 2Lt",
     "description": "Naturlige",
     "thumb": "/img/products/tmp/10.jpg",
-    "image": "/img/products/tmp/10.jpg"
+    "image": "/img/products/tmp/10.jpg",
+	"type": "oil"
   },
   {
     "id": 7,
     "title": "Olje susam yagi",
     "description": "Naturlige",
     "thumb": "/img/products/oil/7-susam yagi-thumb.jpg",
-    "image": "/img/products/oil/7-susam yagi-full.jpg"
+    "image": "/img/products/oil/7-susam yagi-full.jpg",
+	"type": "oil"
   },
   {
     "id": 8,
     "title": "Olje abril",
     "description": "Naturlige",
     "thumb": "/img/products/oil/8-olie-abril-thumb.jpg",
-    "image": "/img/products/oil/8-olie-abril-full.jpg"
+    "image": "/img/products/oil/8-olie-abril-full.jpg",
+	"type": "oil"
   },
   {
     "id": 9,
     "title": "Olje ukranian",
     "description": "Naturlige",
     "thumb": "/img/products/oil/9-olie-ukranian-thumb.jpg",
-    "image": "/img/products/oil/9-olie-ukranian-full.jpg"
+    "image": "/img/products/oil/9-olie-ukranian-full.jpg",
+	"type": "oil"
   }
 ]
