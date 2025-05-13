@@ -175,14 +175,7 @@
     "image": "/img/products/driedfruits/114.jpg",
 	"type": "driedfruits"
   },
-  {
-    "id": 2,
-    "title": "Tea",
-    "description": "Naturlige",
-    "thumb": "/img/products/tea/2-teabox-thumb.jpg",
-    "image": "/img/products/tea/2-teabox-full.jpg",
-	"type": "tea"
-  },
+  
   {
     "id": 3,
     "title": "Tea",
