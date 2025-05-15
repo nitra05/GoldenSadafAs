@@ -183,6 +183,14 @@
     "image": "/img/products/tea/311.jpg",
 	"type": "tea"
   },
+  {
+    "id": 312,
+    "title": "Tea",
+    "description": "Naturlige",
+    "thumb": "/img/products/tea/312.jpg",
+    "image": "/img/products/tea/312.jpg",
+	"type": "tea"
+  },
   
   {
     "id": 3,
